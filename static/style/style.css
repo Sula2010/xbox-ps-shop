@@ -149,25 +149,24 @@ footer {
 }
 
 .footer-box .logo-specials a img {
-  width: 60px;  /* Smaller logos */
+  width: 40px;  
   height: auto;
   margin-bottom: 20px;
 }
 
 .socials {
-  display: flex;
-  justify-content: flex-start;  /* Move logos to the left */
-  gap: 15px;
+  display: flex;            
+  justify-content: flex-start; 
+  gap: 20px;                  
 }
 
 .socials a {
-  margin-right: 15px;
-  display: inline-block;
+  display: block;      
 }
 
 .socials img {
-  height: 20px;  /* Smaller logo size */
-  transition: transform 0.3s ease;
+  width: 40px;               
+  height: auto;  
 }
 
 .socials a:hover img {
@@ -179,7 +178,7 @@ footer {
   align-items: flex-start;
   gap: 100px;
   flex-wrap: wrap;
-  margin-bottom: 30px;
+  
 }
 
 .footer-li ul {
@@ -189,7 +188,7 @@ footer {
 }
 
 .footer-li li {
-  margin-bottom: 15px;
+  margin-bottom: 20px;
 }
 
 .footer-li a {
